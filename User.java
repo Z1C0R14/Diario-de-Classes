@@ -20,7 +20,7 @@ public class User {
         this.profissional = profissional;
     }
     // Methods:
-    public static String displayUser(firstname, lastname, email, age, profissional){
+    public static void displayUser(String firstname, String lastname, String email, int age, String profissional){
         System.out.println("User: " + firstname + " " + lastname);
         System.out.println("Email: " + email);
         System.out.println("Age: " + age);
